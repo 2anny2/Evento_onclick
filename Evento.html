@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evento Onclick</title>
+    <link rel="stylesheet" href="/css/Evento.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Dojonary</h1>
+        <input type="text" name="Nombre" placeholder="search">
+        <button id="boton1" onclick="cambiar_texto(this)">login</button>
+    </header>
+    <div class="contenedor">
+        <div class="columna1">
+            <div class="bloque1">
+                <div class="parte1">
+                    <h2>Ninja</h2>
+                    <p class="noun" style="font-weight: bold ;"><i>noun</i></p>
+                    <p class="plural" style="font-weight: bold;">Plural: <i>ninjas</i></p>
+                    <button class="likes" style="width: 100px;" onclick="alert('Ninja was liked')">13 likes</button>
+                </div>
+                <div class="parte2" style="font-weight: bold;">
+                    <p>A practitioner skilled in the<br><a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+                </div>
+            </div>
+            <div class="bloque2">
+                <div class="parte1">
+                    <h2>Ninja</h2>
+                    <p class="noun" style="font-weight: bold ;"><i>noun</i></p>
+                    <p class="plural" style="font-weight: bold;">Plural: <i>ninjas</i></p>
+                    <button class="likes" style="width: 100px;">37 likes</button>
+                </div>
+                <div class="parte2" style="font-weight: bold;">
+                    <p>A <a href="#">programer</a> who breaks<br>down problems with<a href="#"> zen</a>-like <br>focus
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="columna2">
+            <div class="bloque3">
+                <h2 class="defined">Dojonary is<br>defined by YOU</h2>
+                <button class="add" style="width: 200px;" onclick="hide(this)" >Add Definition</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="/JS/evento.js"></script>
+
+</body>
+
+</html>
